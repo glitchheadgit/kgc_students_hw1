@@ -1,24 +1,40 @@
-ЗАДАНИЕ 1
+###ЗАДАНИЕ 1
+
 ## Описание выполненной работы
 ## Посылаю файл на сервер
+```
 scp /c/Users/Gleb-Mark/dump.fasta.gz nechaev@212.109.195.132:/students/nechaev
+```
 ## Вхожу на сервер 
+```
 ssh -i C:\Users\Gleb-Mark\.ssh nechaev@212.109.195.132
+```
 ## Создаю группу
+```
 sudo groupadd senior
+```
 ## делаю так, чтобы в папке fastafiles только пользователи группы senior могли удалять/создавать/редактировать FASTA файлы, а все остальные могли только читать их
+```
 sudo chown :senior ./fastafiles
 sudo chmod 770 ./fastafiles
 sudo find fastafiles --tepe d -- exac chmod 770 {} ;
 sudo find fastafiles --type f - exac chmod 640 {} ;
+```
 ## Разархивирую dump.fasta.gz
+```
 gunzip dump.fasta.gz
+```
 ## разделяю dump.fasta на двустрочные файлы формата fasta_001
+```
 split -l 2 -a 3 -d ./dump.fasta fasta_
+```
 ## Превращаю файла формата fasta_001 в файлы формата fasta_001.fa
+```
 for file in ./fasta_*; do
     mv "$file" "$file.fa" 
+```
 ## Сортирую файлы по папкам protein, mRNA и reference. Делаю это через cp для сохранности файлов
+```
 for file in /students/nechaev/ustal/fasta*; do 
      if grep -q 'mRNA' "$file"; then
         cp "$file" /students/nechaev/kgc_students_hw1/nechaev/Task_1/fastafiles/mRNA/
@@ -28,13 +44,20 @@ for file in /students/nechaev/ustal/fasta*; do
         cp "$file" /students/nechaev/kgc_students_hw1/nechaev/Task_1/fastafiles/reference/
     fi
 done
+```
+
 ## Архивирую отсортированные файлы 
+```
 gzip students/nechaev/kgc_students_hw1/nechaev/Task_1/fastafiles/*/*.fa
+```
 ## Записываю историю
+```
 history > history.log
+```
 
 
-ЗАДАНИЕ 2
+###ЗАДАНИЕ 2
+
 Наиболее энергоёмкий процесс — java и я бы его завершил с помощью команды — pkill, так как она завершает процесс аккуратно, и не требует pid. 
 Для принудительного завершения я бы воспользовался командой pkill -9
 
