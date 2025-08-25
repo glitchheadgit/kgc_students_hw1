@@ -1,0 +1,280 @@
+    1  addgroup kek
+    2  ssh -i C:\Users\Gleb-Mark\.ssh nechaev@212.109.195.132
+    3  [200~ - curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+    4  - curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+    5  mkdir -p students\nechaev\mamba
+    6  curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+    7  cd students\nechaev\mamba
+    8  chmode 
+    9  chmode +x Miniforge3-Linux-x86_64.sh
+   10  chmod +x Miniforge3-Linux-x86_64.sh
+   11  cd .
+   12  cd ~
+   13  cmod +x Miniforge3-Linux-x86_64.sh 
+   14  chmod +x Miniforge3-Linux-x86_64.sh
+   15  .Miniforge3-Linux-x86_64.sh
+   16  chmod +x Miniforge3-Linux-x86_64.sh
+   17  ssh -i C:\Users\Gleb-Mark\.ssh nechaev@212.109.195.132
+   18  Gleb-Mark@DESKTOP-DTVEREJ MINGW64 ~
+   19  $ ssh -i C:\Users\Gleb-Mark\.ssh nechaev@212.109.195.132
+   20  Warning: Identity file C:UsersGleb-Mark.ssh not accessible: No such file or directory.
+   21  Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-63-generic x86_64)
+   22  Last login: Tue Jul 15 16:50:33 2025 from 92.243.181.195
+   23  To run a command as administrator (user "root"), use "sudo <command>".
+   24  See "man sudo_root" for details.
+   25  nechaev@zolotikov:~$ cd students\nechaev\mamba
+   26  nechaev@zolotikov:~/studentsnechaevmamba$ chmode
+   27  Command 'chmode' not found, did you mean:
+   28  Try: sudo apt install <deb name>
+   29  nechaev@zolotikov:~/studentsnechaevmamba$ chmode +x Miniforge3-Linux-x86_64.sh
+   30  Command 'chmode' not found, did you mean:
+   31  Try: sudo apt install <deb name>
+   32  nechaev@zolotikov:~/studentsnechaevmamba$ chmod +x Miniforge3-Linux-x86_64.sh
+   33  chmod: cannot access 'Miniforge3-Linux-x86_64.sh': No such file or directory
+   34  nechaev@zolotikov:~/studentsnechaevmamba$ cd .
+   35  nechaev@zolotikov:~/studentsnechaevmamba$ cd ~
+   36  nechaev@zolotikov:~$ cmod +x Miniforge3-Linux-x86_64.sh
+   37  Command 'cmod' not found, did you mean:
+   38  Try: sudo apt install <deb name>
+   39  nechaev@zolotikov:~$ chmod +x Miniforge3-Linux-x86_64.sh
+   40  nechaev@zolotikov:~$ .Miniforge3-Linux-x86_64.sh
+   41  .Miniforge3-Linux-x86_64.sh: command not found
+   42  nechae
+   43  Miniforge3-Linux-x86_64.sh
+   44  ls .
+   45  cd ..
+   46  ls .
+   47  cd .\nechaev
+   48  pwd.
+   49  pwd .
+   50  ~
+   51  ls .
+   52  cd 
+   53  ls .
+   54  Miniforge3-Linux-x86_64.sh
+   55  chmod -x Miniforge3-Linux-x86_64.sh
+   56  Miniforge3-Linux-x86_64.sh
+   57  ls .
+   58  chmod -x Miniforge3-Linux-x86_64.sh
+   59  Miniforge3-Linux-x86_64.sh
+   60  ls .
+   61  cd .
+   62  cd ..
+   63  ls .
+   64  cd .\nechaev
+   65  pwd
+   66  cd ./nechaev
+   67  ls
+   68  chmode +x ./Miniforge3-Linux-x86_64.sh
+   69  Miniforge3-Linux-x86_64.sh
+   70  ls .
+   71  Miniforge3-Linux-x86_64.sh
+   72  chmod +x ./Miniforge3-Linux-x86_64.sh
+   73  Miniforge3-Linux-x86_64.sh
+   74  ls .
+   75  ./Miniforge3-Linux-x86_64.sh
+   76  ls.
+   77  ls .
+   78  cd ..
+   79  ls
+   80  cd ..
+   81  ls
+   82  cd ./students
+   83  ls
+   84  mkdir nechaev
+   85  ls
+   86  /home/nechaev/Miniforge3-Linux-x86_64.sh
+   87  -u
+   88  /home/nechaev/Miniforge3-Linux-x86_64.sh -u
+   89  ls
+   90  cd /students/nechaev
+   91  ls
+   92  cd /home/nechaev
+   93  ls
+   94  rm ./miniforge3
+   95  rmdir ./miniforge3
+   96  rm -r ./miniforge3
+   97  ls
+   98  cp ./Miniforge3-Linux-x86_64.sh /students/nechaev/
+   99  ls /students/nechaev
+  100  ls
+  101  rm ./Miniforge3-Linux-x86_64.sh
+  102  ls
+  103  cd /students/nechaev
+  104  ls
+  105  ./Miniforge3-Linux-x86_64.sh 
+  106  ls
+  107  ls /home/nechaev
+  108  rm -r /home/nechaev/miniforge3
+  109  ls /home/nechaev
+  110  ./Miniforge3-Linux-x86_64.sh
+  111  ls
+  112  cd /student/nechaev
+  113  cd /students/nechaev
+  114  ls
+  115  mamba create -n cowsay
+  116  mamba install cowsay /students/nechaev/miniforge3/envs/cowsay
+  117  ls /students/nechaev/miniforge3/envs/cowsay
+  118  cd /students/nechaev
+  119  git init
+  120  ls
+  121  mkdir ./ustal
+  122  ls
+  123  cd ..
+  124  ls
+  125  cd ..
+  126  ls
+  127  cd ./students
+  128  ls
+  129  cd ./nechaev
+  130  ls
+  131  Miniforge3-Linux-x86_64.sh
+  132  cd ./ustal
+  133  ls
+  134  cd ..
+  135  ls
+  136  /students/nechaev/Miniforge3-Linux-x86_64.sh
+  137  ls
+  138  cd ./miniforge
+  139  ls
+  140  ls3
+  141  cd ./miniforge3
+  142  ls
+  143  /students
+  144  cd .. 
+  145  ls
+  146  cd ..
+  147  ls
+  148  cd /students
+  149  ls
+  150  cd ./nechaev
+  151  ls
+  152  /stude
+  153  cd /students/nechaev
+  154  ls
+  155  git init
+  156  ls
+  157  cd /students/nechaev
+  158  ls
+  159  git clone https://github.com/glitchheadgit/kgc_students_hw1
+  160  ls
+  161  git add .
+  162  git commit -m "Марк пытается разобраться что как, пытаясь ничего не сломать :)"
+  163  git log
+  164  /students/nechaev
+  165  cd /students/nechaev
+  166  git branch
+  167  ls
+  168  cd ./kgc_students_hw1
+  169  git branch
+  170  mkdir ./task0
+  171  ls
+  172  cd ./task0
+  173  mkdir task(1, 2)
+  174  mkdir task'1, 2'
+  175  ls
+  176  rm ./'task1, 2'
+  177  rm -r ./'task1, 2'
+  178  ls
+  179  mkdir task[1, 2]
+  180  ls
+  181  rm -r .
+  182  rm -r  2]  'task[1,'
+  183  ls
+  184  mkdir task1 task2
+  185  ls
+  186  cd /students/nechaev
+  187  ls
+  188  cd ./kgc_students_hw1
+  189  ls
+  190  cd ./task0/task1
+  191  mkdir -p fastafiles/mRNA fastafiles/protein fastafiles/reference
+  192  ls
+  193  sudo groupadd senior
+  194  sudo chown :senior fastafiles
+  195  sudo chmod 770 fastafiles
+  196  св ./students/nechaev
+  197  cd ./students/nechaev
+  198  cd /students/nechaev
+  199  git remote -v
+  200  ls
+  201  git remote add origin https://github.com/glitchheadgit/kgc_students_hw1
+  202  ls
+  203  git branch
+  204  cd ./kgc_students_hw1
+  205  cd /students/nechaev
+  206  ls
+  207  cd ./kgc_students_hw1
+  208  ls
+  209  rm -r ./task0
+  210  ls
+  211  mkdir ./Task_1
+  212  ls
+  213  rm -r ./Task_1
+  214  mkdir ./nechaev/Task_1
+  215  mkdir -p ./nechaev/Task_1
+  216  git branch nechaev
+  217  git checkout nechaev
+  218  mkdir -p ./nechaev/Task_1/fastafiles/mRNA
+  219  mkdir ./nechaev/Task_1/fastafiles/protein
+  220  mkdir ./nechaev/Task_1/fastafiles/reference
+  221  cd ./nechaev/Task_1
+  222  sudo groupadd senior
+  223  sudo chown :senior ./fastafiles
+  224  sudo chmod 770 ./fastafiles
+  225  sudo find ./fastafiles -type d -exec chmod 770 {} ;
+  226  sudo find ./fastafiles -type f -exec chmod 640 {} ;
+  227  mkdir ./work
+  228  sudo chmod 1777 ./work
+  229  gunzip /students/nechaev/dump.fasta.gz
+  230  ls
+  231  cd /students/nechaev
+  232  ls
+  233  cat ./d
+  234  cat ./dump.fasta
+  235  history > ./history.log
+  236  ls
+  237  cat ./history.log
+  238  man split
+  239  cd /students/nechaev
+  240  ls
+  241  cd ./kgc_students_hw1
+  242  ls
+  243  cd /students/nechaev
+  244  ls
+  245  cd ,/ustal
+  246  ls
+  247  cd ./ustal
+  248  ls
+  249  cd ..
+  250  cp /students/nechaev/dump.fasta /students/nechaev/ustal/
+  251  cd ./ustal
+  252  ls
+  253  wc -l ./dump.fasta
+  254  split -l 2 ./dump.fasta fasta_{001.. 133}.fa
+  255  ls
+  256  split -l 2 ./dump.fasta fasta_{001..133}.fa
+  257  ls
+  258  split --help
+  259  ls
+  260  split -l 2 ./dump.fasta fasta_{001..133}.fa
+  261  split -l 2 --numeric-suffixes=001 ./dump.fasta fasta_
+  262  ls
+  263  rm ./fasta*
+  264  ls
+  265  split -l 2 --numeric-suffixes=1 ./dump.fasta fasta_
+  266  ls
+  267  rm ./fasta*
+  268  split -l 2 --hex-suffixes=1 ./dump.fasta fasta_
+  269  ls
+  270  cd /students/nechaev/ustal
+  271  ls
+  272  :(){file in /students/nechaev/ustal/fasta_ls; do mv "$file" fasta_{001.. 133}.fa}:
+  273  cd /students/nechaev/ustal/
+  274  ls
+  275  cd /students/nechaev
+  276  cd kgc_students_hw1/
+  277  ls
+  278  cd nechaev/
+  279  ls
+  280  history > history.log
